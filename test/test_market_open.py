@@ -4,14 +4,7 @@ from src.market_open import is_market_open
 
 
 def test_is_market_open_02222022():
-    #Arrange/Setup
-    date = datetime.datetime(2022, 2, 22)
-    #Act/exercise
-    result = is_market_open(date)
-    #Assert/verify
-    assert result
-    #Refactor
-    #assert is_market_open(datetime.datetime(2022, 2, 22))
+    assert is_market_open(datetime.datetime(2022, 2, 22))
 
 def test_is_market_open_saturday():
     # New Years not observed by NYSE if it falls on a Saturday
