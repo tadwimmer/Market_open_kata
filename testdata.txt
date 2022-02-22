@@ -1,0 +1,47 @@
+Test Data
+
+Date		Expected
+2/22/2022	True		Tuesday, non-holiday
+2/26/2022	False		Saturday
+2/27/2022	False		Sunday
+
+1/1/2022	False		Saturday
+1/1/2023	False		Sunday
+1/2/2022	True		Monday, non-holiday
+1/2/2023	False		Monday observance
+1/1/2024	False		New Years Day
+
+1/17/2022	False		Civil Rights Day
+1/16/2023	False		Civil Rights Day
+1/15/2014	False		Civil Rights Day
+1/19/2022	True		Normal work day
+
+2/21/2022	False		President's Day
+1/20/2023	False		President's Day
+
+5/30/2022	False		Memorial Day
+5/29/2023	Fasle		Memorial Day
+5/27/2024	False 		memorial Day
+
+6/20/2022	False		Junteenth (observed)
+6/19/2023	False		Junteenth
+6/19/2024	False		junteenth
+
+7/4/2022	False		Independence Day
+7/4/2024	False		Independence Day
+
+9/5/2022	False		labor Day
+9/4/2023	False		Labor Day
+
+11/24/2022	False		Thanksgiving
+11/23/2023	False		Thanksgiving
+
+12/26/2022	False		Christmas (observed)
+12/25/2023	False		Christmas
+12/24/2021 	False		Christmas (observed)
+
+Extra Credit
+3/15/2022	False		Good Friday
+3/17/2023	False		Good Friday
+3/29/2024	False		Good Friday
+
